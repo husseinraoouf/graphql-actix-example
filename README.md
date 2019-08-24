@@ -19,9 +19,10 @@ A compelete example of graphql api built with:
 cargo install diesel_cli --no-default-features --features postgres
 ```
 
-### init database sqlite
+### init database postgres
 
 ```bash
+createdb graphql-actix-example
 diesel migration run
 ```
 
